@@ -1,0 +1,262 @@
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0; 
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img { border: 0; }
+
+/* Main structure */
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+#container{
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+#status{
+	width: 800px;
+	margin: auto;
+	padding-top: 15px;
+}
+#header, #footer{
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+#navigation, #footer{
+	background-color: #333;
+	border-color: #333;
+	text-align: center;
+	color: #eee;
+	font-size: 12px;
+	padding: 10px 20px;
+}
+#header{
+	text-align: center;
+}
+/* Navigation */
+#navigation{
+	padding-bottom: 0;
+	height: 46px;
+}
+#navigation ul{
+	padding: 10px 0 22px 0;
+}
+#navigation li{
+	display: inline;
+	padding: 10px;
+}
+#navigation li a:link, #navigation li a:visited{
+	color: #fff;
+	background-color: #333;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Arial Rounded MT Bold";
+	padding: 19px;
+}
+#navigation li a:hover{
+	background-color: #c06;
+}
+#status{
+	font-size: 12px;
+	text-align: right;
+}
+#status p{
+	display: inline;
+	background-color: #eee;
+	padding: 15px;
+	border-radius: 0 0 15px 15px;
+	border: 2px solid #333;
+	border-left: none;
+}
+/* Home */
+.randomdisplay{
+	padding: 0 20px;
+	border-top: 1px solid #333;
+	border-radius: 15px;
+}
+.randomdisplay ul{
+	float: left;
+	font-size: smaller;
+}
+.randomdisplay ul a:link, .randomdisplay ul a:visited{
+	color: #777;
+}
+
+/* Login & registration forms */
+.login, .registration{
+	margin: auto;
+	width: 300px;
+	padding: 20px 40px;
+}
+.login input, .registration input{
+	display: block;
+}
+legend{
+	padding: 0 5px;
+}
+fieldset{
+	padding: 15px;
+	margin: 15px 0;
+	border-right: none;
+	border-bottom: none;	
+	border-color: #333;
+	border-radius: 15px;
+}
+p.info{
+	color: #666;
+	font-size: 12px;
+}
+p.error{
+	color: #c11;
+	font-size: 12px;
+}
+.form a:link{
+	font-size: 12px;
+}
+
+/* Display all */
+
+.displayall li{
+	list-style: none;
+	padding: 5px;
+		margin: 2px 0;
+}
+.displayall li a:link, .displayall li a:visited{
+	background-color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-decoration:none;
+}
+.displayall li a:hover{
+	background-color: #ddd;
+}
+.listextra{
+	font-size: 12px;
+	display: inline;
+}
+
+/* Single display */
+.displaysingle li{
+	list-style: none;
+	padding: 5px 0;
+}
+.displaysingle li a:link, .displaysingle li a:visited{
+	background-color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.displaysingle li a:hover{
+	background-color: #ddd;	
+}
+.castandcrew{
+	padding: 0 20px;
+	border-left: 10px double #ddd;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Add form */
+
+.form input{
+	margin-right: 20px;
+}
+.form label{
+	margin: 0;
+	font-size: 12px;
+}
+
+/* Admin Panel */
+.adminpanel{
+	margin-top: -35px;
+}
+
+.adminpanel a:link, .adminpanel a:visited{
+	border: solid 1px #555;
+	padding: 13px;
+	margin: 2px;
+	border-radius: 2px;
+	background-color: #777;
+	color: #fff;
+	font-size: 12px;
+}
+li .admin a:link, li .admin a:visited{
+	border: solid 1px #555;
+	padding: 3px;
+	margin: 1px;
+	border-radius: 2px;
+	background-color: #777;
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: none;
+}
+.adminpanel a:hover, li .admin a:hover{
+	background-color: #333;
+}
+
+/* Registration */
+
+/* Footer */
+
+/* General text */ 
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 78px;
+	color: #333;
+	/*text-shadow: #888 1px 1px, #888 -1px -1px;*/
+}
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Links */
+a:link, a:visited{
+	padding: 2px 6px;
+	border-radius: 10px;
+	text-decoration:none;
+	background-color: #ccc;
+	border: 1px solid #fff;
+	color: #333;
+}
+a:hover{
+	background-color: #aaa;
+}
+/* clear */
+.clear{
+	clear: both;
+}

@@ -1,0 +1,19 @@
+[24-Feb-2012 18:15:36] PHP Fatal error:  Cannot redeclare class Person in /Users/lisaovermyr/sites/showdb/application/controllers/Person.php on line 136
+[24-Feb-2012 18:20:00] PHP Fatal error:  Can't use method return value in write context in /Users/lisaovermyr/sites/showdb/application/controllers/Persons.php on line 8
+[24-Feb-2012 19:03:20] PHP Fatal error:  Call to a member function get_showID() on a non-object in /Users/lisaovermyr/sites/showdb/application/controllers/cast_members.php on line 121
+[24-Feb-2012 19:04:14] PHP Fatal error:  Call to a member function get_showID() on a non-object in /Users/lisaovermyr/sites/showdb/application/controllers/cast_members.php on line 121
+[24-Feb-2012 19:08:37] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/forms/add_cast_member.php on line 3
+[24-Feb-2012 19:11:40] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 17
+[24-Feb-2012 19:12:02] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 17
+[24-Feb-2012 19:12:17] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 17
+[24-Feb-2012 19:13:27] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 17
+[24-Feb-2012 19:13:52] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/models/show_dal.php on line 116
+[24-Feb-2012 19:14:10] PHP Fatal error:  Call to a member function get_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 17
+[24-Feb-2012 19:14:50] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_person.php on line 3
+[24-Feb-2012 19:15:07] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_show.php on line 23
+[24-Feb-2012 19:20:56] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_show.php on line 23
+[24-Feb-2012 19:20:58] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_show.php on line 23
+[24-Feb-2012 19:21:15] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_show.php on line 23
+[24-Feb-2012 19:21:17] PHP Fatal error:  Call to a member function get_first_name() on a non-object in /Users/lisaovermyr/sites/showdb/application/views/display/single_show.php on line 23
+[24-Feb-2012 19:22:24] PHP Fatal error:  Call to undefined method Persons::person() in /Users/lisaovermyr/sites/showdb/application/controllers/persons.php on line 105
+[24-Feb-2012 19:26:29] PHP Fatal error:  Call to undefined method Persons::person() in /Users/lisaovermyr/sites/showdb/application/controllers/persons.php on line 81
